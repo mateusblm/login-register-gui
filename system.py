@@ -192,6 +192,7 @@ class Toplevel1:
     def systempanel(self):
         panel = tk.Tk()
         panel.title("System Panel")
+        panel.geometry("600x450+966+256")
 
     def RegisterBackEnd(self):
         try:
