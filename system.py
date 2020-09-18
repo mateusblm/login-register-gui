@@ -100,8 +100,8 @@ class Toplevel1:
         self.top = tk.Tk
 
     def register(self):
-        '''This class configures and populates the self.rootlevel window.
-               self.root is the self.rootlevel containing window.'''
+        '''This class configures the register window, like the geometry, 
+        title and all the buttons and labels.'''
         _bgcolor = '#d9d9d9'  # X11 color: 'gray85'
         _fgcolor = '#000000'  # X11 color: 'black'
         _compcolor = '#d9d9d9'  # X11 color: 'gray85'
